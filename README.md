@@ -38,6 +38,9 @@ uvicorn app.main:app --reload
 
 ## Demo Speech-to-Text
 
+Xem hướng dẫn đầy đủ cho máy mới tại
+[docs/STT_LOCAL_SETUP.md](docs/STT_LOCAL_SETUP.md).
+
 Luồng demo đã kết nối giao diện phòng phỏng vấn với Faster-Whisper:
 
 1. Đăng nhập bằng tài khoản demo và mở phòng phỏng vấn.
