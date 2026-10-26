@@ -11,6 +11,7 @@ backend/**/__pycache__/
 backend/venv/
 backend/.env
 backend/*.egg-info/
+backend/data/stt_uploads/
 
 # Common
 .DS_Store

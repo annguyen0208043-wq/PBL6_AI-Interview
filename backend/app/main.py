@@ -1,6 +1,7 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from app.core.config import settings
+from app.api.stt import router as stt_router
 
 app = FastAPI(
     title="NextStepAI API",
@@ -19,6 +20,8 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
+app.include_router(stt_router)
 
 
 @app.get("/", tags=["Health"])
