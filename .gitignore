@@ -9,6 +9,7 @@ frontend/tsconfig.node.tsbuildinfo
 backend/__pycache__/
 backend/**/__pycache__/
 backend/venv/
+frontend/venv/
 backend/.env
 backend/*.egg-info/
 backend/data/stt_uploads/
